@@ -6,13 +6,6 @@ python中如何使用rust编写的库？
 
 maturin是一个工具，可以帮助我们将Rust代码编译成Python模块，并且可以轻松地发布到PyPI上。以下是使用maturin的步骤：
 
-1. 安装maturin：
-
-```bash
-uv init
-uv add maturin
-```
-
 ### 创建一个新的Rust库
 
 会在src目录下创建rust库的模板代码：
@@ -21,9 +14,6 @@ uv add maturin
 maturin init --lib
 ```
 
-例子：
-
-```rust
 ## Python with Rust
 
 python中如何使用rust编写的库？
